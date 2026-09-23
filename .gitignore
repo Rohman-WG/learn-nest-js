@@ -3,9 +3,12 @@
 /node_modules
 /build
 
+<<<<<<< HEAD
 # TypeScript build cache
 *.tsbuildinfo
 
+=======
+>>>>>>> upstream/main
 # Logs
 logs
 *.log
