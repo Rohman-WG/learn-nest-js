@@ -6,8 +6,8 @@ import { ConvertLengthDto } from './dto/convert.dto.js';
 export class ConvertController {
   constructor(private readonly convertService: ConvertService) {}
 
-  @Get('length/:length')
+  @Get('length/:meters')
   convertLength(@Param() params: ConvertLengthDto) {
-    return this.convertService.convertLength(params.length);
+    return this.convertService.convertLength(params.meters);
   }
 }

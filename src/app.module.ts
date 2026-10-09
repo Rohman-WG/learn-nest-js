@@ -9,9 +9,11 @@ import { UtilityModule } from './utility/utility.module.js';
 import { ConvertModule } from './convert/convert.module.js';
 import { AverageModule } from './average/average.module.js';
 import { CalculateModule } from './calculate/calculate.module.js';
+import { SplitModule } from './split/split.module.js';
+import { TemperatureModule } from './temperature/temperature.module.js';
 
 @Module({
-  imports: [GeometryModule, HealthModule, ShopModule, AcademicModule, UtilityModule, ConvertModule, AverageModule, CalculateModule],
+  imports: [GeometryModule, HealthModule, ShopModule, AcademicModule, UtilityModule, ConvertModule, AverageModule, CalculateModule, SplitModule, TemperatureModule],
   controllers: [AppController],
   providers: [AppService],
 })
